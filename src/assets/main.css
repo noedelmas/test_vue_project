@@ -1,0 +1,57 @@
+body{
+  font-family: 'Roboto Slab';
+}
+
+h2{
+  text-decoration: underline;
+  color: orange;
+}
+
+ul li i{
+  color: #4472c4;
+}
+
+ul{
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.img{
+  justify-content: center;
+  display: flex;
+}
+
+.header{
+  grid-area: header;
+}
+
+.container{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0 auto;
+}
+
+.left-column{
+  grid-area: left-column;
+  background-color: #4472c4;
+  color: white;
+  padding: 2.5%;
+}
+
+.right-column{
+  grid-area: right-column;
+}
+
+.skills{
+  background-color: rgb(242,242,242);
+  border-radius: 15px;
+  color: black;
+  max-width: max-content;
+  padding: 2.5%;
+}
